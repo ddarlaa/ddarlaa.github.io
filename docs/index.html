@@ -3,13 +3,58 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Индексная страница дарлы</title>
+    <title>Индексная страница Дарлы</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #ff9a9e 0%, #f683a8 100%);
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 3.5em;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            padding: 30px 50px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            border: 2px solid rgba(255,255,255,0.3);
+            margin: 20px;
+            line-height: 1.4;
+            position: relative;
+        }
+        
+        h1:before, h1:after {
+            content: "";
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background: #ff3366;
+            transform: rotate(45deg);
+            left: 50%;
+        }
+        
+        h1:before {
+            top: -15px;
+            margin-left: -15px;
+        }
+        
+        h1:after {
+            bottom: -15px;
+            margin-left: -15px;
+        }
+    </style>
 </head>
 <body>
-    <h1> привет всем ! с днем святого валентина</h1>
-    
+    <h1>С днём святого Валентина!</h1>
 </body>
 </html>
